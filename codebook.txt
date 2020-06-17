@@ -1,0 +1,7 @@
+CodeBook
+=========
+
+This script combines the data from the UCI HAR Dataset. Specifically, it uses all the data files in the Inertial Signals folder from both the test folder and the train folder to create a tidy data set. 
+This tidy data set is named "combined_data.csv"
+
+Then, the average values for each variable are taken. These are listed in a separate tidy data set, named "averages.csv"
